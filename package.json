@@ -1,0 +1,20 @@
+{
+  "name": "restaurant_page",
+  "version": "1.0.0",
+  "description": "The Odin Project exercise which aimed to practice using webpack and npm to dynamically create a simple webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.6.0",
+    "tabsy-css": "^1.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "style-loader": "^1.2.1"
+  }
+}

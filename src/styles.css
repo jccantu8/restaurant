@@ -1,0 +1,117 @@
+/* Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+  
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+  
+ol, ul {
+  list-style: none;
+}
+  
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/******************/
+
+* {
+	font-family: sans-serif;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #872f29;
+}
+
+header {
+	width: 80%;
+	height: 20%;
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+	background: rgb(135,47,41);
+	background: linear-gradient(180deg, rgba(135,47,41,1) 50%, rgba(209,74,65,1) 100%);
+	color: #f7f4df;
+	font-size: 4rem;
+	line-height: 350%;
+}
+
+#restaurantImage {
+	height: 250px;
+	width: auto;
+	float: left;
+}
+
+.mainInfo {
+	width: 80%;
+	margin: auto;
+	border-style: solid;
+	border-color: black;
+}
+
+.tabs {
+	display: flex;
+	border-style: solid;
+	border-color: black;
+}
+
+.aboutusTab {
+	flex-grow: 1;
+	border-right: solid;
+	border-color: black;
+	background-color: #d14a41;
+	text-align: center;
+	color: #f7f4df;
+	font-size: 1.5rem;
+}
+
+.aboutusTab:hover {
+	cursor: pointer;
+}
+
+.menuTab {
+	flex-grow: 1;
+	border-right: solid;
+	border-color: black;
+	background-color: #d14a41;
+	text-align: center;
+	color: #f7f4df;
+	font-size: 1.5rem;
+}
+
+.menuTab:hover {
+	cursor: pointer;
+}
+
+.contactTab {
+	flex-grow: 1;
+	border-right: solid;
+	border-right: none;
+	background-color: #d14a41;
+	text-align: center;
+	color: #f7f4df;
+	font-size: 1.5rem;
+}
+
+.contactTab:hover {
+	cursor: pointer;
+}
+
+.tabDisplay {
+	height: 60vh;
+	border-style: solid;
+	background-color: #f7f4df;
+}
